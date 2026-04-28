@@ -1,0 +1,370 @@
+*{
+    margin: 0;
+}
+ 
+
+
+header{
+    background-image: url(images/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(187, 18, 167);
+}
+
+header h1{
+    text-align: center;
+    font-size: 50px;
+    text-transform: uppercase;
+
+}
+
+header h4{
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+nav{
+    text-align: center;
+    padding: 15px;
+    background-color: burlywood;
+}
+
+nav a{
+    text-decoration: none;
+}
+
+nav img{
+    width: 6em;
+    height:40px;
+    
+}
+
+footer {
+    text-align: center;
+    background-color: brown;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(160, 198, 22);
+}
+#home{
+    width: 800px;
+    height: 500px;
+    background-color: rgb(213, 171, 18);
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    border-radius: 15px;
+    padding: 29px;
+}
+
+.video-section {
+  position: relative;
+  overflow: hidden;
+  color: white;
+}
+
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -2;
+}
+
+/* Dark overlay (makes text visible) */
+.video-section::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0.5);
+  z-index: -1;
+}
+
+#home h1{
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgb(4, 86, 86);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    
+
+}
+
+#home img{
+    width: 350px;
+    height: 300px;
+    border: 6px solid rgb(203, 153, 14);
+    border-radius: 15px;
+    display: inline-block;
+    
+    margin-right: 20px;
+    margin-bottom: 70px;
+}
+
+.texthm{
+    text-align: left;
+    float: left;
+    width: 300px;
+}
+
+.imagehm{
+    text-align: center;
+    vertical-align: middle;
+    float: right;
+    margin-top: 80px;
+}
+
+.wifi{
+    padding: 10px;
+    margin: 10px; 
+    width: 100px;
+    display: inline-block;
+    background-color: rgb(15, 238, 15);
+    
+    border-radius: 15px;
+    text-align: center;
+    color: hsl(248, 54%, 48%);
+    
+
+}
+
+#choose{
+    margin-top: 20px;
+    
+    width: 300px;
+}
+
+#magac{
+    margin-top: 20px;
+    margin-left: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 24px;
+    color: rgb(105, 71, 27);
+    font-size: 22px;
+
+}
+
+#about{
+    width: 750px;
+    height: 450px;
+    background-color: rgb(204, 164, 17);
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: 50px;
+    border-radius: 15px;
+    padding: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+#about h2{
+    text-align: center;
+    font-size: 32px;
+    padding: 10px;
+    margin-bottom: 25px;
+    color: blueviolet
+
+}
+
+#about p{
+    font-size: 20px;
+    line-height: 30px;
+}
+
+#cype{
+    margin-top: 50px;
+}
+
+.type{
+    margin-top: 30px;
+    line-height: 30px;
+
+}
+
+.type h3{
+    color: rgb(17, 55, 126);
+
+}
+
+#service{
+    width: 750px;
+    height: 450px;
+    background-color: darkkhaki;
+    border-radius: 15px;
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: 50px;
+    padding: 30px;
+    line-height: 25px;
+}
+
+#service h2{
+    text-align: center;
+    font-size: 35px;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: rgb(159, 9, 124);
+
+}
+
+#service .intro{
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 18px;
+    color: rgb(10, 103, 124);
+    font-weight: 600;
+}
+
+#service .card{
+    text-align: center;
+    border-left: solid brown 5px;
+    background-color: rgb(219, 174, 27);
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 50px;
+    color: rgb(26, 86, 86);
+    font-size: 17px;
+}
+
+#service .list-box{
+    color: rgb(183, 11, 109);
+    font-size: 20px;
+    line-height: 30px;
+}
+
+#gallery{
+    width: 750px;
+    height: 1300px;
+    background-color: darkkhaki;
+    border-radius: 15px;
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: 50px;
+    padding: 30px;
+    line-height: 25px;
+}
+
+#gallery h2{
+    text-align: center;
+    font-size: 35px;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: rgb(16, 77, 79);
+
+}
+
+#gallery h3{
+    text-align: center;
+    font-size: 35px;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: rgb(20, 81, 83);
+    margin-top: 10px;
+
+}
+
+
+
+
+
+#gallery p{
+    padding: 15px;
+}
+
+.picture img{
+    border-radius: 15px;
+    width: 350px;
+    height: 200px;
+    line-height: 50px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+
+}
+
+#gallery video{
+    border-radius: 15px;
+    margin-left: 22px;
+}
+
+#gallery audio{
+    margin-left: 100px;
+    width: 500px;
+}
+
+.picture{
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 40px;
+
+}
+
+#contact{
+    width: 800px;
+    height: 550px;
+    background-color: darkkhaki;
+    border-radius: 15px;
+    margin: auto;
+    margin-bottom: 40px;
+    margin-top: 50px;
+    padding: 30px;
+    line-height: 25px;
+}
+
+#contact h2{
+    text-align: center;
+    font-size: 35px;
+    padding: 10px;
+    margin-bottom: 20px;
+    color: rgb(17, 71, 72);
+
+}
+
+.contact-box{
+    width: 700px;
+    height: 400px;
+    background-color: #9faf66d3;
+    border-radius: 15px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 50px;
+    border: solid 5px brown;
+    
+    
+    
+}
+.contact-box p{
+    line-height: 35px;
+    font-size: 25px;
+}
+
+.contact-box p strong{
+    color: rgb(78, 3, 60);
+}
+
+.contact-box a{
+    text-decoration: none;
+}
+
+.contact-box h3{
+    color: rgb(161, 8, 26);
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contact-box li{
+    line-height: 20px;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
